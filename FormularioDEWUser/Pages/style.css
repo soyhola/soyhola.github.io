@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(79, 68, 68);
+    color: white;
+}
+.containerUno {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.containerDos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.containerAcciones {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.containerTres {
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    height: 100px;
+    width: 100%;
+}
+.containerBoton {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.botonEnviar {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 10px;
+}
